@@ -173,7 +173,6 @@ FoodVibez
 │   └── restaurant.jsp
 │
 ├── screenshots
-├── pom.xml
 └── README.md
 ```
 
