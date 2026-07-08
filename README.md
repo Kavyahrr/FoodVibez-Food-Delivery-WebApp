@@ -119,29 +119,62 @@ FoodVibez
 ├── src
 │   └── main
 │       ├── java
-│       │   ├── com.tap.Controller
-│       │   ├── com.tap.DAOImpl
-│       │   ├── com.tap.DAOInterface
-│       │   ├── com.tap.model
-│       │   └── com.tap.utility
 │       │
-│       └── webapp
-│           ├── images
-│           ├── WEB-INF
-│           ├── Cart.jsp
-│           ├── Checkout.jsp
-│           ├── Login.jsp
-│           ├── Menu.jsp
-│           ├── OrderHistory.jsp
-│           ├── OrderSuccess.jsp
-│           ├── Profile.jsp
-│           ├── Register.jsp
-│           └── restaurant.jsp
+│       ├── com.tap.Controller
+│       │   ├── CartServlet.java
+│       │   ├── CheckoutServlet.java
+│       │   ├── LoginServlet.java
+│       │   ├── LogoutServlet.java
+│       │   ├── MenuServlet.java
+│       │   ├── OrderHistoryServlet.java
+│       │   ├── ProfileServlet.java
+│       │   ├── RegisterServlet.java
+│       │   ├── RestaurantServlet.java
+│       │   └── UpdateProfileServlet.java
+│       │
+│       ├── com.tap.DAOImpl
+│       │   ├── MenuDAOImpl.java
+│       │   ├── OrderDAOImpl.java
+│       │   ├── OrderItemDAOImpl.java
+│       │   ├── RestaurantDAOImpl.java
+│       │   └── UserDAOImpl.java
+│       │
+│       ├── com.tap.DAOInterface
+│       │   ├── MenuDAO.java
+│       │   ├── OrderDAO.java
+│       │   ├── OrderItemDAO.java
+│       │   ├── RestaurantDAO.java
+│       │   └── UserDAO.java
+│       │
+│       ├── com.tap.model
+│       │   ├── Cart.java
+│       │   ├── CartItem.java
+│       │   ├── Menu.java
+│       │   ├── Order.java
+│       │   ├── OrderItem.java
+│       │   ├── Restaurant.java
+│       │   └── User.java
+│       │
+│       └── com.tap.utility
+│           └── DBConnection.java
+│
+├── src/main/webapp
+│   ├── images
+│   ├── WEB-INF
+│   │   └── web.xml
+│   ├── Cart.jsp
+│   ├── Checkout.jsp
+│   ├── Login.jsp
+│   ├── Menu.jsp
+│   ├── OrderHistory.jsp
+│   ├── OrderSuccess.jsp
+│   ├── Profile.jsp
+│   ├── Register.jsp
+│   └── restaurant.jsp
 │
 ├── screenshots
-├── README.md
-├── LICENSE
-└── .gitignore
+├── pom.xml
+└── README.md
 ```
 
 ---
