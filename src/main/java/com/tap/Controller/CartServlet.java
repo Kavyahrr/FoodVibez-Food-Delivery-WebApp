@@ -1,4 +1,4 @@
-package com.tap.Controller;
+package src.main.java.com.tap.Controller;
 
 import java.io.IOException;
 
